@@ -87,3 +87,38 @@ nav {
   background-color: #6415ff;
   color: #fff;
 }
+
+/*
+
+HEADER
+
+*/
+
+.purple {
+  color: #6415ff;
+}
+
+.header__row {
+  display: flex;
+  
+
+}
+
+.header__description {
+  width: 40%;
+  box-sizing: border-box;
+}
+
+/* .header__title {} */
+
+/* .header__para {} */
+
+/* .header__form {} */
+
+/* .header__customer--title {} */
+
+/* .header__customer--img {} */
+
+.header__img {
+  width: 60%;
+}
