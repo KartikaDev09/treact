@@ -188,19 +188,33 @@ input {
 /* MAIN */
 /* FEATURES */
 
+#features {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.feature__row {
+  margin-top: 80px;
+  margin-bottom: 50px;
+
+}
+
 .feature__description {
   text-align: center;
+  padding: 20px;
 }
 
 .feature__services {
   display: flex; 
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
+  /* flex-direction: column; */
 }
 
 .service {
   padding: 0 24px;
-  width: calc(100% / 3);
+  width: 33%;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   
 }
