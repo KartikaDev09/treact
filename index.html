@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>treact</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://unpkg.com/feather-icons"></script>
   </head>
   <body>
     <!-- HEADER -->
@@ -78,7 +79,7 @@
           <div class="row feature__row">
             <div class="feature__description">
               <p class="section__label"><span class="purple">FEATURES</span></p>
-              <h2 class="feature__title">
+              <h2 class="section__title">
                 We Have Amazing <span class="purple">Service.</span>
               </h2>
               <p class="feature__para">
@@ -197,7 +198,7 @@
               <p class="section__label">
                 <span class="purple">QUALITY WORK</span>
               </p>
-              <h2 class="quality__title">
+              <h2 class="section__title">
                 Designed & Developed by
                 <span class="purple">Professionals.</span>
               </h2>
@@ -231,7 +232,7 @@
               <p class="section__label">
                 STEPS
               </p>
-              <h2 class="step__title">
+              <h2 class="section__title">
                 Easy to <span class="purple">Get Started.</span>
               </h2>
               <ol class="step__list">
@@ -261,6 +262,64 @@
           </div>
         </div>
       </section>
+
+      <!-- VALUES -->
+
+      <section id="values">
+        <div class="container">
+          <div class="row value__row">
+            <div class="value__description">
+              <p class="section__label">Values</p>
+              <h2 class="section__title">We Always Abide by Our <span>Principles.</span></h2>
+              <p class="value__para">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <div class="value__list">
+                <div class="value">
+                  <div class="value__title">
+                    <div class="value__icon">
+                      <i data-feather="dollar-sign"></i>
+                    </div>
+                    <h2 class="value__name">
+                      Affordable
+                    </h2>
+                  </div>
+                  <p class="value__para">
+                    We promise to offer you the best rate we can - at par with the industry standard.
+                  </p>
+                </div>
+                <div class="value">
+                  <div class="value__title">
+                    <div class="value__icon">
+                      <i data-feather="briefcase"></i>
+                    </div>
+                    <h2 class="value__name">
+                      Professionalism
+                    </h2>
+                  </div>
+                  <p class="value__para">
+                    We assure you that our templates are designed and created by professional designers.
+                  </p>
+                </div>
+              </div>
+              <button class="btn btn__value">
+                Learn More
+              </button>
+            </div>
+            <figure class="value__img--wrapper">
+              <img class="value__img" src="./assets/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg" alt="">
+            </figure>
+          </div>
+        </div>
+      </section>
+
+
+
     </main>
+
+    <script>
+      feather.replace();
+    </script>
+
   </body>
 </html>

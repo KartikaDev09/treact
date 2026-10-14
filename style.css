@@ -38,6 +38,15 @@ li {
   font-weight: 700;
 }
 
+.section__title {
+  font-size: 48px;
+  font-weight: 900;
+  color: rgb(36, 62, 99);
+  line-height: 1.5;
+  margin: 16px 0;
+  letter-spacing: 0.025em;
+}
+
 /*
 
 NAV
@@ -228,15 +237,6 @@ input {
   gap: 16px;
 }
 
-.feature__title {
-  font-size: 48px;
-  font-weight: 900;
-  color: rgb(36, 62, 99);
-  line-height: 1.5;
-  margin: 14px 0;
-  letter-spacing: 0.025em;
-}
-
 .feature__para {
   width: 100%;
   max-width: 600px;
@@ -321,15 +321,6 @@ QUALITY
   gap: 16px;
 }
 
-.quality__title {
-  font-size: 48px;
-  font-weight: 900;
-  color: rgb(36, 62, 99);
-  line-height: 1.1;
-  margin: 10px 0;
-  letter-spacing: 0.025em;
-}
-
 .quality__para {
   font-size: 18px;
   font-weight: 500;
@@ -369,15 +360,6 @@ STEPS
   align-items: center;
 }
 
-.step__title {
-  font-size: 48px;
-  font-weight: 900;
-  color: rgb(36, 62, 99);
-  line-height: 1.1;
-  margin: 16px 0;
-  letter-spacing: 0.025em;
-}
-
 .step__img--wrapper {
   padding: 0;
   width: 62%;
@@ -400,7 +382,6 @@ STEPS
 }
 
 .step__list {
-  
   box-sizing: border-box;
 }
 
@@ -433,4 +414,21 @@ STEPS
   margin-top: 12px;
   font-weight: 500;
   line-height: 2;
+}
+
+/*
+
+VALUES
+
+*/
+
+#values {
+  max-width: 1200px;
+  margin: 80px auto;
+}
+
+.value__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
