@@ -342,7 +342,6 @@ QUALITY
   width: 50%;
 }
 
-
 .quality__img {
   width: 100%;  
 }
@@ -351,4 +350,34 @@ QUALITY
   align-self: flex-start;
   margin-left: 0;
   margin-right: 0;
+}
+
+/*
+
+STEPS
+
+*/
+
+#steps {
+  max-width: 1200px;
+  margin: 80px auto;
+}
+
+.step__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.step__img--wrapper {
+  padding: 0;
+  width: 65%;
+}
+
+.step__img {
+  width: 100%;
+}
+
+.step__item {
+  display: flex;
 }
