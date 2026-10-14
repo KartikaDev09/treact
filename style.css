@@ -47,6 +47,13 @@ li {
   letter-spacing: 0.025em;
 }
 
+.section__para {
+  font-size: 18px;
+  font-weight: 500;
+  color: #7c8ba1;
+  line-height: 1.625;
+}
+
 /*
 
 NAV
@@ -138,6 +145,7 @@ HEADER
   width: 40%;
   box-sizing: border-box;
   margin-top: 50px;
+  padding-left: 24px;
 }
 
 .header__title {
@@ -252,6 +260,7 @@ input {
   flex-wrap: wrap;
   row-gap: 32px;
   margin-top: 38px;
+  padding-left: 24px;
 }
  
 
@@ -316,8 +325,8 @@ QUALITY
 .quality__description {
   display: flex;
   flex-direction: column;
-  width: 40%;
-  padding: 0;
+  width: 50%;
+  padding-left: 24px;
   gap: 16px;
 }
 
@@ -389,6 +398,7 @@ STEPS
   display: flex;
   align-items: flex-start;
   margin-top: 32px;
+}
 
 .list__number {
   color: #cbd5e0;
@@ -432,3 +442,67 @@ VALUES
   justify-content: space-between;
   align-items: center;
 }
+
+.value__description {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-left: 24px;
+  gap: 16px;
+}
+
+.value__list {
+  display: flex;
+}
+
+.value__title {
+  display: flex;
+
+}
+
+.value__name {
+  margin-left: 15px;
+}
+
+.value__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  border-radius: 50px;
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+  background-color: #9ae6b4;
+}
+
+.value__icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.value:nth-child(2) .value__icon {
+    background-color: #feb2b2;
+}
+
+.value__para {
+  margin: 7px auto;
+  color: #7c8ba1;
+}
+
+.value__img--wrapper {
+  padding: 0;
+  width: 50%;
+}
+
+.value__img {
+  width: 100%;
+}
+
+/*
+
+PRICING
+
+*/
+
+
