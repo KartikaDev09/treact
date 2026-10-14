@@ -369,9 +369,18 @@ STEPS
   align-items: center;
 }
 
+.step__title {
+  font-size: 48px;
+  font-weight: 900;
+  color: rgb(36, 62, 99);
+  line-height: 1.1;
+  margin: 16px 0;
+  letter-spacing: 0.025em;
+}
+
 .step__img--wrapper {
   padding: 0;
-  width: 65%;
+  width: 62%;
 }
 
 .step__img {
@@ -380,4 +389,48 @@ STEPS
 
 .step__item {
   display: flex;
+}
+
+.step__description {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-left: 24px;
+  gap: 16px;
+}
+
+.step__list {
+  
+  box-sizing: border-box;
+}
+
+.step__item {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 32px;
+
+.list__number {
+  color: #cbd5e0;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.list__detail {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+  max-width: 320px;
+}
+
+.list__title {
+  font-size: 24px;
+}
+
+.list__para {
+  font-size: 14px;
+  color: #718096;
+  margin-top: 12px;
+  font-weight: 500;
+  line-height: 2;
 }
