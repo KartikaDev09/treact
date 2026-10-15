@@ -534,4 +534,63 @@ PRICING
   flex-direction: column;
   font-size: 30px;
   padding: 30px;
+  text-align: center;
+  margin-top: 27px;
+  margin-right: 18px;
+  width: calc(100%/3);
+}
+
+.plan__header {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 45px;
+}
+
+.plan__type {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.plan__price {
+  font-size: 45px;
+  font-weight: bold;
+  margin: 4px 0;
+}
+
+.plan__duration {
+  font-size: 17px;
+  font-weight: 700;
+  color: #a0aec0;
+  letter-spacing: 2.5px;
+}
+
+.plan__body {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: 40px;
+  
+}
+
+.plan__target {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.plan__feature {
+  font-size: 18px;
+}
+
+.plan__footer {
+  box-sizing: border-box;
+  margin: 40px;
+}
+
+.plan__button {
+  padding: 16px 62px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+
 }
