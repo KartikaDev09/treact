@@ -137,8 +137,6 @@ HEADER
 
 .header__row {
   display: flex;
-  
-
 }
 
 .header__description {
@@ -151,8 +149,7 @@ HEADER
 .header__title {
   padding: 18px 5px;
   font-size: 40px;
-  margin: 20px 20px;
-  
+  margin: 20px 20px;  
 }
 
 .header__para {
@@ -167,8 +164,7 @@ input {
   padding: 22px 150px;
   border-radius: 40px;
   font-size: 18px;
-  opacity: 0.8;
-  
+  opacity: 0.8;  
 }
 
 .header__form {
@@ -177,8 +173,7 @@ input {
   display: inline-block;
   width: 100%;
   height: 68px;
-  justify-content: flex-end;
-  
+  justify-content: flex-end;  
 }
 
 .btn__header {
@@ -206,8 +201,7 @@ input {
   padding: 18px;
   width: 400px;
   height: 70px;
-  opacity: 0.5;
- 
+  opacity: 0.5; 
 }
 
 .header__img--wrapper {
@@ -219,8 +213,7 @@ input {
 .header__img {
   width: 75%;
   margin-top: 35px;
-  margin-right: 40px;
-  
+  margin-right: 40px;  
 }
 
 /* MAIN */
@@ -234,7 +227,6 @@ input {
 .feature__row {
   margin-top: 80px;
   margin-bottom: 50px;
-
 }
 
 .feature__description {
@@ -268,8 +260,7 @@ input {
   padding: 0 24px;
   width: calc(100% / 3);
   display: flex;
-  align-items: flex-start;
- 
+  align-items: flex-start; 
 }
 
 .service__description {
@@ -294,8 +285,7 @@ input {
 .service__img--wrapper {
   padding: 13px;
   border: 1px solid #e5e7eb;
-  border-radius: 500px;
-  
+  border-radius: 500px;  
 }
 
 .service__img {
@@ -457,7 +447,6 @@ VALUES
 
 .value__title {
   display: flex;
-
 }
 
 .value__name {
@@ -643,4 +632,85 @@ PRICING
 .plan:nth-child(3) .plan__stripe, .plan:nth-child(3) .plan__button {
     color: #f7fafc;
     background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
+/*
+
+TESTIMONIAL
+
+*/
+
+#testimonials {
+  max-width: 1200px;
+  margin: 80px auto;
+}
+
+.testimonial__row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.testimonials__img {
+  width: 40%;
+}
+
+.testimonial__description {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.testimonial {
+  margin-top: 40px;
+}
+
+.testimonial__rating { 
+  margin-top: 40px;
+  color: #fabf2a;
+}
+
+.testimonial__title {
+  margin-top: 35px;
+}
+
+.testimonial__para {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  line-height: 1.625;
+  font-size: 16px;
+  color: rgb(74 85 104);
+}
+
+.testimonial__img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.testimonial__bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonial__profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.testimonial__detail {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+ 
+}
+
+.testimonial__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
