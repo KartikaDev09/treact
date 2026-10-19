@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 * {
   box-sizing: border-box;
-  font-family: "Inter", sans-serif;;  
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0; 
+}
+
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
 section {
@@ -76,14 +83,15 @@ NAV
 */
 
 nav {
-  padding: 20px;
+  padding-top: 32px;
   display: flex;
 }
 
 .nav__logo {
   display: flex;
   align-items: center;
-  margin: 8px 20px;
+  margin: 8px 0;
+  padding-bottom: 4px;
 }
 
 .nav__logo--img {
@@ -92,22 +100,22 @@ nav {
 }
 
 .nav__logo--title {
-  font-size: 25px;
-  font-weight: 850;
-  letter-spacing: 0.8px;
-  margin-left: 10px;
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: 0.6px;
+  margin-left: 12px;
+  padding-bottom: 2px;
 }
 
 .nav__row {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
-  align-items: center; 
 }
 
 .nav__links {
   display: flex;
   align-items: center; 
+  padding-bottom: 2px;
 }
 
 .nav__link {
@@ -115,6 +123,7 @@ nav {
   display: flex;
   margin: 0 24px;
   font-size: 14px;
+  letter-spacing: 0.35px;
   font-weight: 600;
   letter-spacing: 0.35px;
   transition: all 300ms;
@@ -216,7 +225,7 @@ HEADER
 
 .header__customer--title {
   padding: 15px 15px 0 ;
-  margin-top: 70px;
+  margin-top: 80px;
   color: #a0aec0;
   font-size: 15px;
   font-weight: 500;
@@ -988,10 +997,32 @@ footer {
   border-radius: 50%;
   margin-left: 10px;
   cursor: pointer;
-  transition: all 300ms ease;
-  
+  transition: all 300ms ease;  
 }
 
 .footer__social--link:hover {
   background-color: rgb(160, 168, 175);
+}
+
+/*
+
+MEDIA QUERIES
+
+*/
+
+@media  (max-width: 768px) {
+  .step__img--wrapper, .step__description, quality__img--wrapper,.quality__description, .service {
+    width: 100%;
+    max-width: 448px;
+  }
+
+  .step__row, .feature__services {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .quality__row {
+    flex-direction: column-reverse;
+  }
+
 }
