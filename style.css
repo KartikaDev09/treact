@@ -8,7 +8,7 @@
 
 body {
   max-width: 100vw;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 section {
@@ -162,6 +162,51 @@ nav {
 .nav__link--primary:hover {
   background-color: #6f599b;
   text-decoration: none;
+}
+
+.btn__menu {
+  background-color: transparent;
+  font-size: 40px;
+  text-align: center;
+  border: none;
+  color: #7342d6;
+  display: none;
+}
+
+.menu__backdrop {
+  position: absolute;
+  background-color: #242424;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn__menu--close {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  padding: 8px;
+  color: white;
+}
+
+.menu__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu__link {
+  font-size: 40px;
+  color: white;
+}
+
+.menu__list {
+  padding: 32px 0
 }
 
 /*
