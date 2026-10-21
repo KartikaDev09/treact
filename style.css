@@ -176,7 +176,7 @@ nav {
 
 .menu__backdrop {
   position: absolute;
-  background-color: #242424;
+  background-color: #cbd1df;
   top: 0;
   left: 0;
   right: 0;
@@ -187,6 +187,12 @@ nav {
   visibility: hidden;
   opacity: 0;
   transition: all 300ms ease;
+  height: 480px;
+  margin: 24px 16px;
+  padding: 32px;
+  border: 1px solid rgb(229, 231, 235);
+  border-radius: 8px;
+  z-index: 4;
 }
 
 .menu--open .menu__backdrop {
@@ -198,29 +204,45 @@ nav {
 .menu--open {
   max-height: 100vh;
   overflow-y: hidden;
+  
 }
 
 .btn__menu--close {
   position: absolute;
   right: 20px;
   top: 10px;
-  padding: 8px;
-  color: white;
+  
+  color: #7342d6;
 }
 
 .menu__links {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+  width: 100%;
+  height: 100%;
+}    
 
-.menu__link {
-  font-size: 40px;
-  color: white;
+.menu__link { 
+  color: #7342d6;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 8px 0;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
 }
 
 .menu__list {
-  padding: 32px 0
+  padding: 17px 0
+}
+
+.menu__link--primary {
+  padding: 12px 32px;
+  background: #6415ff;
+  color: #cbd5e0;
+  border-radius: 500px;
+  border: none;
 }
 
 /*
