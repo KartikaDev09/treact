@@ -166,11 +166,12 @@ nav {
 
 .btn__menu {
   background-color: transparent;
-  font-size: 40px;
+  font-size: 100px;
   text-align: center;
   border: none;
   color: #7342d6;
   display: none;
+  
 }
 
 .menu__backdrop {
@@ -181,9 +182,22 @@ nav {
   right: 0;
   bottom: 0;
   z-index: 100;
-  display: flex;
   justify-content: center;
   align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 300ms ease;
+}
+
+.menu--open .menu__backdrop {
+  display: flex;
+  visibility: visible;
+  opacity: 1;
+}
+
+.menu--open {
+  max-height: 100vh;
+  overflow-y: hidden;
 }
 
 .btn__menu--close {
@@ -1135,6 +1149,16 @@ MEDIA QUERIES
 
 */
 
+@media  (max-width: 550px) {
+  .nav__links {
+    display: none;
+  }
+
+  .btn__menu {
+    display: block;
+  }
+}
+
 @media  (max-width: 768px) {
   .step__img--wrapper, .step__description, quality__img--wrapper,.quality__description, .service {
     width: 100%;
@@ -1210,4 +1234,5 @@ MEDIA QUERIES
     width: auto;
   }
 
+  
 }
