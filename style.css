@@ -742,6 +742,7 @@ PRICING
   position: relative;
   color: rgb(26 32 44);
   z-index: 1;
+  background-color: white;
   
 }
 
@@ -856,8 +857,9 @@ PRICING
   height: 20rem;
   width: 20rem;
   left: 0px;
-  transform: translate(-5rem, 45rem);
+  transform: translate(-50%, 50%);
   z-index: 0;
+  bottom: 0;
 
 }
 
